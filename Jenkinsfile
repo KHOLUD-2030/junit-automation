@@ -7,7 +7,7 @@ pipeline {
             steps{
                 cleanWs()
                 // Checkout code from your GitHub repository
-                git branch: 'main', url: 'https://github.com/KHOLUD-2030/junitpipeline.git'
+                git branch: 'main', url: 'https://github.com/KHOLUD-2030/junit-automation.git'
             }
         }
 
